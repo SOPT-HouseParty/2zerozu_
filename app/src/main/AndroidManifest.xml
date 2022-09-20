@@ -4,6 +4,7 @@
     package="com.example.sopt_practice">
 
     <application
+        android:name=".PusherApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOPT_Practice"
         tools:targetApi="31">
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
         <activity
             android:name=".MainActivity2"
             android:exported="true" />
