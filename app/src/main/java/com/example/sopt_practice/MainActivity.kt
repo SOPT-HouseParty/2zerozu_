@@ -5,7 +5,6 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
-import kotlin.random.Random.Default.nextInt
 
 class MainActivity : AppCompatActivity() {
 
